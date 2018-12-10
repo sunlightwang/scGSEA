@@ -1,0 +1,16 @@
+Package: scGSEA
+Type: Package
+Title: Gene Set Enrichment Analysis (GSEA) of Single-Cell RNA-Seq Data
+Version: 0.99.0
+Date: 2018-12-10
+Author: Xi Wang <Xi.Wang at dkfz.de>
+Maintainer: Xi Wang <Xi.Wang at dkfz.de>
+Description: The package provides methods for gene set
+        enrichment analysis of single-cell RNA-Seq data, 
+	including statistical methods, and visualization 
+	functions. 
+License: GPL (>= 3)
+Depends: SeqGSEA,
+Imports: Biobase, methods, biomaRt
+biocViews: Sequencing, SingleCell, RNASeq, 
+	GeneSetEnrichment, GeneExpression, ImmunoOncology

@@ -1,0 +1,10 @@
+##Namespace file for SeqGSEA package
+import(methods, Biobase)
+importFrom(biomaRt, getBM, useMart)
+importFrom("grDevices", "rainbow")
+
+export(
+	"scESPlot",
+	"scGSheatmap",
+	"scNESheatmap"
+)

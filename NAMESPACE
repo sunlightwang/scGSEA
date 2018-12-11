@@ -1,7 +1,7 @@
-##Namespace file for SeqGSEA package
-import(methods, Biobase)
+##Namespace file for scGSEA package
+import(methods, Biobase, SingleCellExperiment, Seurat, scater, scran, ggplot2)
 importFrom(biomaRt, getBM, useMart)
-importFrom("grDevices", "rainbow")
+importFrom(grDevices, rainbow)
 
 export(
 	"scESPlot",

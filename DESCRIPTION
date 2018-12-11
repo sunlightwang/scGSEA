@@ -12,5 +12,5 @@ Description: The package provides methods for gene set
 License: GPL (>= 3)
 Depends: SeqGSEA,
 Imports: Biobase, methods, biomaRt
-biocViews: Sequencing, SingleCell, RNASeq, 
+biocViews: Sequencing, SingleCell, RNASeq, scRNAseq, 
 	GeneSetEnrichment, GeneExpression, ImmunoOncology
